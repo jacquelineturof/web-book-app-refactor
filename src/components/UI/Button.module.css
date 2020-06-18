@@ -1,0 +1,27 @@
+.Button {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.Flat {
+    background-color: transparent;
+    padding: .5rem 1rem;
+    border: 1px solid #ccc;
+    margin-top: 1rem;
+}
+
+.Submit {
+    width: 70%;
+    height: 50px;
+    background-color: #81b29a;
+    font-size: 1.2rem;
+}
+
+.Forgot {
+    position: absolute;
+    top: 55%;
+    left: 65%;
+}
+

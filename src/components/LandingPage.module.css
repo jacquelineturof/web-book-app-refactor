@@ -1,0 +1,32 @@
+.Landing {
+    background: url('../Assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.Heading {
+    top: 30%;
+    left: 10%;
+    position: absolute;
+    font-family: 'Work Sans', sans-serif;
+    height: 20%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.MainHeading {
+    margin: 0;
+    font-weight: 100;
+    font-size: 5rem;
+}
+
+.SubHeading {
+    margin: 0;
+}
+
+

@@ -1,0 +1,26 @@
+.Auth {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(242,204,143);
+    background: linear-gradient(90deg, rgba(242,204,143,1) 0%, rgba(129,178,154,1) 0%, rgba(244,241,222,1) 90%);
+}
+
+.Form {
+    width: 50%;
+    height: 70%;
+    border-radius: .6rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.ChangeFormContainer {
+    display: flex;
+}

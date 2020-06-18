@@ -1,0 +1,53 @@
+.InputElement {
+    outline: none;
+    border: none;
+    width: 80%;
+    font-size: 1rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+}
+
+.InputContainer {
+    border: .5px solid #ccc;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.MessageContainer {
+    width: 70%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Select {
+    background-color: transparent;
+}
+
+.TextArea {
+    height: 90%;
+}
+
+.TextAreaContainer {
+    height: 50%;
+}
+
+.Invalid {
+    border: 1px solid red;
+}
+
+.WarningMessage {
+    margin: 0;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 100;
+    color: red;
+    margin-top: 10px;
+}
+
+.Icon {
+    color: black;
+}
